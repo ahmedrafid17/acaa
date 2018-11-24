@@ -1,0 +1,35 @@
+<!--Our Work-->
+        
+                <h3>Services</h3>
+                
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <i class="fas fa-globe-asia" aria-hidden="true"></i>
+                        <span><strong> Campaigns </strong></span>
+                        <p>Run campaigns that spread awareness of specific <br>problems that are harming our oceans and provide solutions to how we can change
+                        </br>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" class="toAnim">
+                        <i class="fas fa-seedling" aria-hidden="true"></i>
+                        <span><strong>Oceans</strong></span>
+                        <p>Research to find better alternatives to stop the issues where they first occur</p>
+                    </div>
+                </div>
+                    
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <i class="fas fa-seedling" aria-hidden="true"></i>
+                        <span><strong>Land</strong></span>
+                        <p>Community meetups to help clean up the oceans
+</p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <i class="fas fa-seedling" aria-hidden="true"></i>
+                        <span><strong>Cities</strong></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                
+                <br>    
+                <hr>

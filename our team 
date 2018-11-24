@@ -1,0 +1,70 @@
+<!--Our Team-->
+                
+                    <div class="container">
+                    
+                    <h2>Our Team</h2>
+                        
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <img src="https://i.pinimg.com/236x/8c/3d/3f/8c3d3fcfd9939b6c9eebda221eab4392.jpg" class="rounded-circle" height="250px" width="250px"></img>
+                            </div>
+                            
+                            <div class="col-lg-8 col-md-8">
+                                <h3>Maria Smith</h3>
+                                <h4>Founder</h4>
+                                <p>
+                                  Maria Smith founded Clean Oceans after the occurrence of the Gulf War oil spill in 1991. An estimated 240 million gallons of oil was discharged into the Persian Gulf, decimating marine life. This motivated Maria Smith to found Clean Oceans to create awareness concerning ocean pollution and promote healthy and biodiverse oceans. Maria Smith founded Clean Oceans after the occurrence of the Gulf War oil spill in 1991. An estimated 240 million gallons of oil was discharged into the Persian Gulf, decimating marine life. This motivated Maria Smith to found Clean Oceans to create awareness concerning ocean pollution and promote healthy and biodiverse oceans.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <img src="https://www.intergate-immigration.com/wp-content/uploads/Corporate-Workers-Visa.png" class="rounded-circle" height="250px" width="250px"></img>
+                            </div>
+                            
+                            <div class="col-lg-8 col-md-8">
+                                <h3>Karen Hernandez</h3>
+                                <h4>CEO</h4>
+                                <p>
+                                   In February of 2002, Clean Oceans hired Karen Hernandez as CEO because of her previous experience as Managing Director of Altered: Nozzle. Altered Nozzle is a Swedish based startup company who made serious headway with our water consumption issue by creating a special nozzle, which when attached to your tap helps to reduce water consumption by as high as 98%. Karen's experience as Managing Director gave her the tools, skills, and leadership experience needed to take Clean Oceans to the next level in rasing clean ocean awareness. 
+                                </p>
+                            </div>
+                        </div>
+                    
+                        <br>
+                        
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <img src="https://www.corporatephotographylondon.com/wp-content/uploads/2016/11/8.jpg" class="rounded-circle" height="250px" width="250px"></img>
+                            </div>
+                            
+                            <div class="col-lg-8 col-md-8">
+                                <h3>Mike Mcarthy</h3>
+                                <h4>COO</h4>
+                                <p>
+                                    Example Paragraph
+                                </p>
+                            </div>
+                        </div>
+                    
+                        <br>
+                        
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <img src="http://www.corporatephotographylondon.com/wp-content/uploads/2016/03/D04_4783-copy.jpg" class="rounded-circle" height="250px" width="200px"></img>
+                            </div>
+                            
+                            <div class="col-lg-8 col-md-8">
+                                <h3>Elizabeth Parish</h3>
+                                <hr>CFO</h4>
+                                <p>
+                                    Example Paragraph
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

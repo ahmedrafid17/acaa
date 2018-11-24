@@ -14,14 +14,16 @@
         <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
+    
     </head>
     
     <body>
         
         <!--Navbar-->
         
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-            <a class="navbar-brand" href="#"><div id="ocean">Clean Ocean</div></a>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="navbar1">
+            <a class="navbar-brand" href="#"><div id="ocean">Clean Oceans</div></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,7 +36,7 @@
                         <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Meet Our Team</a>
+                        <a class="nav-link" href="team.html">Meet Our Team</a>
                     </li>     
                     <li class="nav-item">
                         <a class="nav-link" href="#getinvolved">Get Involved</a>
@@ -53,13 +55,12 @@
         
         <div id="header" class="header">
             <div class="slideshow-container">
- <div class="parallax"> 
- </div>
- <div class="centered"> 
-  <h1> <div id="slogan">"A cleaner today for a better tomorrow"</div> </h1>
- </div>
- 
- </div>
+                <div class="parallax"> 
+                </div>
+                <div class="centered"> 
+                    <h1> <div id="slogan"><img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.15752-9/46446946_2182238055383640_4823654388335640576_n.png?_nc_cat=100&_nc_ht=scontent-lga3-1.xx&oh=445ff20df22cd9471f3f1acadaaf1cd3&oe=5C80DAD5" height="400px" width="400px"></div> </h1>
+                </div>
+             </div>
         </div>
         
         <!--About Us-->
@@ -69,61 +70,100 @@
                 <br>
                 <h1 align="center">About Us</h1>
                 <p> <div id="aboutus1" class="animated zoomIn delay-2s"> Our mission is to create solutions and spread awareness to create healthy, rich and biodiverse oceans.</div></p>
-                <div id="team" class="team">
+            </div>
+        </div>
                    
-                    <br>
+        <br>
                     
-                <!--Our Work-->
+        <!--Our Work-->
         
-                <h3>Our Work</h3>
-                
+        <div id="work">
+            <br>
+            <h1 align="center" id="services">Services</h1>
+            <br>
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-6">
-                        <i class="fas fa-seedling" aria-hidden="true"></i>
-                        <span><strong>Climate</strong></span>
-                        <p>Run campaigns that spread awareness of specific problems that are harming our oceans and provide solutions to how we can change</p>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <i class="fas fa-seedling" aria-hidden="true"></i>
-                        <span><strong>Oceans</strong></span>
-                        <p>Research to find better alternatives to stop the issues where they first occur
-</p>
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="service-box">
+                            <div class="service-icon yellow">
+                    <div class="front-content">
+                        <i class="fa fa-globe"> </i>
+                        <h3> Campaign</h3>
                     </div>
                 </div>
-                    
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6">
-                        <i class="fas fa-seedling" aria-hidden="true"></i>
-                        <span><strong>Land</strong></span>
-                        <p>Community meetups to help clean up the oceans
-</p>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <i class="fas fa-seedling" aria-hidden="true"></i>
-                        <span><strong>Cities</strong></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="service-content">
+                    <h3>Campaign</h3>
+                    <p>Run campaigns that spread awareness of specific problems that are harming our oceans and provide solutions to how we can change</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 ">
+            <div class="service-box">
+                <div class="service-icon orange">
+                    <div class="front-content">
+                       <i class="fa fa-anchor"></i>
+                        <h3>Oceans</h3>
                     </div>
                 </div>
+                <div class="service-content">
+                    <h3>What we do</h3>
+                    <p>Research to find better alternatives to stop the issues where they first occur, hence making oceans safer and cleaner.
+</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="service-box ">
+                <div class="service-icon red">
+                    <div class="front-content">
+                   <i class="fa fa-users"></i>
+                        <h3>Community Meetups</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>How me make people aware of the issue</h3>
+                    <p>Community meetups to help clean up the oceans and also make people aware of the drastic issue.
+</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="service-box">
+                <div class="service-icon grey">
+                    <div class="front-content">
+                        <i class="fa fa-ship"></i>
+                        <h3>Ocean Cleanups</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>java script</h3>
+                    <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+</div>
                 
-                <br>    
-                <hr>
-                
+                <br>
                     <!--Our Team-->
-                
+                    
+                    <div>
                     <div class="container">
                     
                     <h2>Our Team</h2>
                         
                         <div class="row">
                             <div class="col-lg-4 col-md-4">
-                                <img src="https://i.pinimg.com/236x/8c/3d/3f/8c3d3fcfd9939b6c9eebda221eab4392.jpg" class="rounded-circle" height="250px" width="250px"></img>
+                                <img src="https://static1.squarespace.com/static/5a4dc52090bcce5ce11a8a62/5a506e449140b76bbf7a9216/5a508b0f71c10b670397e88b/1515227923979/Marlena+Light+Test+CG.jpg?format=1500w" class="rounded-circle" height="250px" width="235px"></img>
                             </div>
                             
                             <div class="col-lg-8 col-md-8">
                                 <h3>Maria Smith</h3>
                                 <h4>Founder</h4>
                                 <p>
-                                    Things about Melissa Smith
+                                  Maria Smith founded Clean Oceans after the occurrence of the Gulf War oil spill in 1991. An estimated 240 million gallons of oil was discharged into the Persian Gulf, decimating marine life. This motivated Maria Smith to found Clean Oceans to create awareness concerning ocean pollution and promote healthy and biodiverse oceans.
                                 </p>
                             </div>
                         </div>
@@ -131,14 +171,14 @@
                         <br>
                         <div class="row">
                             <div class="col-lg-4 col-md-4">
-                                <img src="https://www.intergate-immigration.com/wp-content/uploads/Corporate-Workers-Visa.png" class="rounded-circle" height="250px" width="250px"></img>
+                                <img src="http://miamiheadshotphotos.com/images/Miami-Corporate-Headshot-Booth.jpg" class="rounded-circle" height="250px" width="235px"></img>
                             </div>
                             
                             <div class="col-lg-8 col-md-8">
-                                <h3>Melissa Smith</h3>
+                                <h3>Karen Hernandez</h3>
                                 <h4>CEO</h4>
                                 <p>
-                                    Things about Melissa Smith
+                                In February of 2002, Clean Oceans hired Karen Hernandez as CEO because of her previous experience as Managing Director of Altered: Nozzle. Altered Nozzle is a Swedish based startup company who made serious headway with our water consumption issue by creating a special nozzle, which when attached to your tap helps to reduce water consumption by as high as 98%. Karen's experience as Managing Director gave her the tools, skills, and leadership experience needed to take Clean Oceans to the next level in rasing clean ocean awareness. 
                                 </p>
                             </div>
                         </div>
@@ -147,14 +187,14 @@
                         
                         <div class="row">
                             <div class="col-lg-4 col-md-4">
-                                <img src="https://www.corporatephotographylondon.com/wp-content/uploads/2016/11/8.jpg" class="rounded-circle" height="250px" width="250px"></img>
+                                <img src="http://www.nobleqatar.com/wp-content/uploads/2017/11/1.jpg" class="rounded-circle" height="250px" width="235px"></img>
                             </div>
                             
                             <div class="col-lg-8 col-md-8">
                                 <h3>Mike Mcarthy</h3>
                                 <h4>COO</h4>
                                 <p>
-                                    Example Paragraph
+                                   As Clean Oceans began to grow in outward influence, efficiency became a major focus. That's where Mike Mcarthy came in. As Chief Operating Officer Mike provided the leadership, management, and vision necessary to ensure that Clean Oceans has the proper administrative and reporting procedures, and people systems. Thereby effectively growing organization and ensuring financial strength and operating efficiency.   
                                 </p>
                             </div>
                         </div>
@@ -163,14 +203,14 @@
                         
                         <div class="row">
                             <div class="col-lg-4 col-md-4">
-                                <img src="http://www.corporatephotographylondon.com/wp-content/uploads/2016/03/D04_4783-copy.jpg" class="rounded-circle" height="250px" width="200px"></img>
+                                <img src="https://kellywilliamsphotography.com/wp-content/uploads/2016/03/9-Business-3.jpg" class="rounded-circle" height="250px" width="235px"></img>
                             </div>
                             
                             <div class="col-lg-8 col-md-8">
                                 <h3>Elizabeth Parish</h3>
-                                <hr>CFO</h4>
+                                <h4>CFO</h4>
                                 <p>
-                                    Example Paragraph
+                                  To help create budgets, analyze financial statements, and strategically interpret the data, Clean Oceans hired Elizabeth Parrish. As former Executive Director at LOLIWARE Elizabeth assisted LOLIWARE's CEO with forecasting, cost-benefit analysis and obtaining funding for various initiatives. Elizabeth is "strategic by nature" and brings a forward-looking and proactive stance to managing the organization finances.
                                 </p>
                             </div>
                         </div>
@@ -185,8 +225,10 @@
                 
         <!--Contact-->
             <div id="contact" class="contact">
+                <br>
                 <div class="container">
-                    <h2 align="center">Contact Us</h2>
+                    <h1 align="center">Contact Us</h2>
+                    <br>
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="input-group input-group-lg">
@@ -219,44 +261,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            
                 
             <br>
             <hr>
-                <!--Donate-->
-                <div id="donate" class="donate">
-                    <div class="container">
-                        <h2 align="center">Donate</h2>
-                        <div class="row justify-content-center" align="center">
-                            <div class="col-lg-6 col-md-6">
-                                <button type="button" class="btn btn-outline-primary btn-lg" aria-pressed="true">$25</button>
-                                <button type="button" class="btn btn-outline-primary btn-lg" aria-pressed="true">$50</button>
-                                <button type="button" class="btn btn-outline-primary btn-lg" aria-pressed="true">$100</button>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center" align="center">
-                            <div class="col-lg-6 col-md-6">
-                                <button type="button" class="btn btn-outline-primary btn-lg" aria-pressed="true">$250</button>
-                                <button type="button" class="btn btn-outline-primary btn-lg" aria-pressed="true">$500</button>
-                                <button type="button" class="btn btn-outline-primary btn-lg" aria-pressed="true">$1000</button>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6 col-md-6">
-                                <input type="text" class="form-control" placeholder="$" aria-label="" aria-decribedby="basic-addon1">
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="button">Donate</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-              
-            
-               
-            </div>
-        </div>
+        
+
         
          <!--Footer-->
                 <div id="footer" class="footer" style="background-color:black">
@@ -265,7 +275,11 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-4" style="color:white">
                                 <h4>Contact</h4>
-                                <p><i class="fa fa-home" aria-hidden="true"></i> 1234 This Street myCity, ourCity 123345</p>
+                                <p><i class="fa fa-home" aria-hidden="true"></i><br>Clean Oceans</br>
+                                Po Box 1456
+                           <br>Washington, D.C., United States</br>
+                               Millennial_Poets@gmail.com 
+                                     </p>
                                 <p><i class="fa fa-envelope" aria-hidden="true"></i> hello@company.org</p>
                                 <p><i class="fa fa-phone" aria-hidden="true"></i> (646) 123 - 4567</p>
                                 <p><i class="fa fa-globe" aria-hidden="true"></i> www.thisCompany.org</p>

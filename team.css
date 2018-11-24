@@ -1,0 +1,85 @@
+.team-members:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.team-members {
+    display: inline-block;
+}
+.team-members {
+    display: block;
+}
+
+.team-members__member {
+    float: left;
+    width: 25%;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.team-members__photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+  height:275px;
+  position:relative;
+}
+
+.team-members__member--active {
+    border-bottom: 4px solid #002054;  
+}
+
+.team-members__photo--1 {
+    background-image:url(https://static1.squarespace.com/static/5705a1807c65e4719912d05c/5729422462cd949e41c94937/57294239356fb092b258c8f2/1462321723309/team-1a.jpg);
+}
+
+.team-members__photo--1:hover {
+    background-image:url(https://static1.squarespace.com/static/5705a1807c65e4719912d05c/5729422462cd949e41c94937/5729423960b5e9e5b973574d/1462321723394/team-1b.jpg);
+}
+
+.team-members__photo--2 {
+    background-image:url(https://static1.squarespace.com/static/5705a1807c65e4719912d05c/5729422462cd949e41c94937/5729423a356fb092b258c8f5/1462321724050/team-2a.jpg);
+}
+
+.team-members__photo--2:hover {
+    background-image:url(https://static1.squarespace.com/static/5705a1807c65e4719912d05c/5729422462cd949e41c94937/5729423a60b5e9e5b9735756/1462321723635/team-2b.jpg);
+}
+
+.team-members__photo--3 {
+    background-image:url(https://static1.squarespace.com/static/5705a1807c65e4719912d05c/5729422462cd949e41c94937/5729423b60b5e9e5b9735775/1462321724297/team-3a.jpg);
+}
+
+.team-members__photo--3:hover {
+    background-image:url(https://static1.squarespace.com/static/5705a1807c65e4719912d05c/5729422462cd949e41c94937/5729423b356fb092b258c8f9/1462321724556/team-3b.jpg);
+}
+
+.team-members__photo--4 {
+    background-image:url(https://static1.squarespace.com/static/5705a1807c65e4719912d05c/5729422462cd949e41c94937/5729423b60b5e9e5b9735799/1462321724564/team-4a.jpg);
+}
+
+.team-members__photo--4:hover {
+    background-image:url(https://static1.squarespace.com/static/5705a1807c65e4719912d05c/5729422462cd949e41c94937/5729423b356fb092b258c8fc/1462321724517/team-4b.jpg);
+}
+
+  .preload {display:none !important;}  
+.team-members__name,
+.team-members__position {
+    display: block;
+  text-align:center;
+}
+
+.team-members__name {
+    font-weight: bold;
+    font-size: 20px;
+  padding-top:10px;
+}
+
+.team-bios {
+    padding-top: 20px;
+}
+
+.team-bios__bio {
+    display: none;
+    font-size: 20px;
+}
