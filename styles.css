@@ -134,6 +134,10 @@ p{
 .contact {
     margin-top: 20px;
 }
+#contact {background-color: #17629c;
+}
+#contactus {color:white;
+}
 
 .contact .message{
     height: 100px;
@@ -339,9 +343,3 @@ p{
             -o-transform: rotateX(0);
             transform: rotateX(0);
         }
-
-/*partners*/
-
-/*contact us*/
-
-#contact {background-color: #17629c;}
