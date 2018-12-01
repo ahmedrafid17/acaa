@@ -5,7 +5,7 @@
 
 body{
     overflow-x:hidden;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
     text-rendering: optimzeLegibility !important;
 }
 
@@ -15,7 +15,7 @@ a{
 }
 
 h1, h2, h4{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     padding-top:10px;
@@ -42,11 +42,10 @@ p{
 
 .navbar{
     text-transform: uppercase;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
 
-#navbar1{ background-color:orange;} 
 
 .slideshow-container{
     position: relative;
@@ -64,9 +63,9 @@ p{
 /*ABOUT US*/
 
 .about{
-    padding 80px 0 80px;
+    padding: 80px 0 80px;
     text-align: center;
-    background-color: #
+    color: #0c314d;
 }
 
 .about span{
@@ -78,7 +77,7 @@ p{
 }
 
 .about i {
-    height: 50px;
+    height: 70px;
     width: 50px;
     font-size: 25px;
     padding: 15px 10px;
@@ -86,6 +85,11 @@ p{
     background-color: #000000;
     color: #fff;
 }
+
+.row {
+    margin-top: 0px;
+}
+
 
 /*MEET OUR TEAM*/
 
@@ -132,9 +136,9 @@ p{
 /*CONTACT*/
 
 .contact {
-    margin-top: 20px;
+    margin-top: 0px;
 }
-#contact {background-color: #17629c;
+#contact {background-color: #0c314d;
 }
 #contactus {color:white;
 }
@@ -147,8 +151,8 @@ p{
 /*FOOTER*/
 
 .footer {
-    background-color: #fff;
-    margin-top: 20px;
+    background-color: #0c314d;
+    margin-top: 0px;
 }
 
 .footer .btn{
@@ -186,9 +190,7 @@ p{
 
 
 #ocean { 
-    background-color: ;
-    font-family: 'Fredoka One', cursive;
-    color: ;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .slideshow-container {
@@ -196,32 +198,64 @@ p{
 }
 .centered {
     position: absolute;
-    top: 55%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+#gardlogo {
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+}
+
+#applelogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#deeplogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#seichelogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.navbar-brand {
+    position: absolute;
+    top: 47%;
+    left: 11.5%;
+    transform: translate(-50%, -50%);
+}
 /*slideshow*/
 
 
 
 #slogan {
     font-size: 90px;
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     }
-
-#aboutus1 {
-    
-}
 
 .parallax { 
     /* The image used */
     background-image: url("https://media.giphy.com/media/7GHRDluBmx9O8/giphy.gif");
-    background-attachment: fixed;
 
     /* Set a specific height */
-    height: 697px; 
+    height: 657px; 
+    
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -251,7 +285,15 @@ p{
 /*services*/
 
 #work {background-color: #17629c;}
-#services {color: white;}
+
+#services {
+    background-color: #0c314d;
+    color: white;
+}
+
+#partners {
+    color: #0c314d;
+}
 
 .service-box{
             position: relative;
@@ -343,3 +385,77 @@ p{
             -o-transform: rotateX(0);
             transform: rotateX(0);
         }
+
+/*Codepen*/
+
+#meet {
+    background-color: #17629c;
+    color: white;
+}
+
+#solution {
+    background-color: #0c314d;
+    color: white;
+}
+
+#meetbutton {
+    background-color: #0c314d;
+    color: white;
+}
+
+#messagebutton {
+    background-color: #17629c;
+    color: white;
+}
+
+#problem {
+    color: #0c314d;
+}
+#basic-addon1 {
+    background-color: #17629c;
+    color: white;
+    
+}
+
+#reach {
+    color: white;
+}
+
+.fa-user {
+    width: 20px;
+}
+
+#footsub {
+    background-color: #17629c;
+    color: white;
+}
+
+#basic-addon2 {
+    background-color: #0c314d;
+    color: white;
+}
+
+#community {
+    color: white;
+}
+
+#maria {
+    background-color: #17629c;
+    color: white;
+
+}
+
+#garbage {
+    
+}
+
+.aboutimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#join {
+    color: white;
+}
